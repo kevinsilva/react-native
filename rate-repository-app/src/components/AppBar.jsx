@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
   container: {
     paddingTop: Constants.statusBarHeight,
     paddingHorizontal: 15,
-    backgroundColor: theme.colors.secondary,
+    backgroundColor: theme.colors.appBarBackground,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
