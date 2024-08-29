@@ -6,7 +6,7 @@ const useRepositories = () => {
 
   const fetchRepositories = async () => {
     setLoading(true);
-    const response = await fetch('http://localhost:5001/api/repositories');
+    const response = await fetch('http://192.168.175.21:5001/api/repositories');
     const json = await response.json();
 
     setLoading(false);
